@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QDialog" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1649</width>
+    <height>906</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="G_employer">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1651</width>
+     <height>911</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(80, 150, 209);</string>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QGroupBox" name="groupBox_7">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>341</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(174, 217, 224);
+background-color: rgb(183, 214, 239);
+font: italic 11pt &quot;Bell MT&quot;;</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>30</y>
+       <width>101</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: italic 11pt &quot;Bell MT&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Formulaire</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_61">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>70</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: italic 11pt &quot;Bell MT&quot;;</string>
+     </property>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="la_id">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>80</y>
+       <width>161</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid ;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+        background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+
+font-family:Arial, Helvetica, sans-serif;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_62">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>140</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: italic 11pt &quot;Bell MT&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Nom</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="la_nom">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>150</y>
+       <width>161</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid ;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+        background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+
+font-family:Arial, Helvetica, sans-serif;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_63">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>210</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: italic 11pt &quot;Bell MT&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Prenom</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="la_prenom">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>220</y>
+       <width>161</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid ;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+        background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+
+font-family:Arial, Helvetica, sans-serif;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_64">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>280</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: italic 11pt &quot;Bell MT&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Suivi</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="la_suivi">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>290</y>
+       <width>161</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid ;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+        background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+
+font-family:Arial, Helvetica, sans-serif;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_65">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>350</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: italic 11pt &quot;Bell MT&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Adresse</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="la_adresse">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>360</y>
+       <width>161</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid ;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+        background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+
+font-family:Arial, Helvetica, sans-serif;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_66">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>420</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: italic 11pt &quot;Bell MT&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Role</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="la_role">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>430</y>
+       <width>161</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid ;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+        background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+
+font-family:Arial, Helvetica, sans-serif;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Boutton_Ajouter">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>590</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">Mariem Abidi
+QPushButton {
+background-color: rgb(5, 51, 141);
+
+border-radius:4px;
+
+        
+font: italic 11pt &quot;Bell MT&quot;;
+text-align: middle;
+
+}
+QPushButton:hover {
+        color: rgb(255, 255, 255);
+
+background:#6156A1;
+border-radius:4px;
+text-align: middle;
+}</string>
+     </property>
+     <property name="text">
+      <string>Ajouter </string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Boutton_Modifier">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>590</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">Mariem Abidi
+QPushButton {
+background-color: rgb(5, 51, 141);
+
+border-radius:4px;
+
+        font:  18pt &quot;Bell MT&quot;;
+text-align: middle;
+
+}
+QPushButton:hover {
+        color: rgb(255, 255, 255);
+
+background:#6156A1;
+border-radius:4px;
+text-align: middle;
+}</string>
+     </property>
+     <property name="text">
+      <string>Modifier</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Boutton_sup">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>590</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">Mariem Abidi
+QPushButton {
+background-color: rgb(5, 51, 141);
+
+border-radius:4px;
+
+        font:  18pt &quot;Bell MT&quot;;
+text-align: middle;
+
+}
+QPushButton:hover {
+        color: rgb(255, 255, 255);
+
+background:#6156A1;
+border-radius:4px;
+text-align: middle;
+}</string>
+     </property>
+     <property name="text">
+      <string>Supprimer</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="la_salaire">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>510</y>
+       <width>161</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid ;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+        background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+
+font-family:Arial, Helvetica, sans-serif;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>490</y>
+       <width>56</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Salaire</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="Boutton_tri_nom_5">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>660</y>
+      <width>191</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 11pt &quot;Bell MT&quot;;</string>
+    </property>
+    <property name="title">
+     <string>Trier par</string>
+    </property>
+    <widget class="QPushButton" name="Boutton_tri_ID">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>30</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">Mariem Abidi
+QPushButton {
+background-color: rgb(5, 51, 141);
+
+border: none;
+
+        font:  18pt &quot;Bell MT&quot;;
+text-align: middle;
+
+}
+QPushButton:hover {
+        color: rgb(255, 255, 255);
+
+background:#6156A1;
+border-radius:4px;
+text-align: middle;
+}</string>
+     </property>
+     <property name="text">
+      <string>ID</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Boutton_tri_suivi">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>90</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">Mariem Abidi
+QPushButton {
+background-color: rgb(5, 51, 141);
+
+border: none;
+
+        font:  18pt &quot;Bell MT&quot;;
+text-align: middle;
+
+}
+QPushButton:hover {
+        color: rgb(255, 255, 255);
+
+background:#6156A1;
+border-radius:4px;
+text-align: middle;
+}</string>
+     </property>
+     <property name="text">
+      <string>Suivi</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Boutton_tri_nom">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>150</y>
+       <width>93</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">Mariem Abidi
+QPushButton {
+background-color: rgb(5, 51, 141);
+
+border: none;
+
+        font:  18pt &quot;Bell MT&quot;;
+text-align: middle;
+
+}
+QPushButton:hover {
+        color: rgb(255, 255, 255);
+
+background:#6156A1;
+border-radius:4px;
+text-align: middle;
+}</string>
+     </property>
+     <property name="text">
+      <string>Nom</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLineEdit" name="la_chercher_nom">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>60</y>
+      <width>821</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid ;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+        background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+
+font-family:Arial, Helvetica, sans-serif;
+}</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>1440</x>
+      <y>20</y>
+      <width>111</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Desktop/image-removebg-preview.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Boutton_rechecher">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>70</y>
+      <width>51</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">Mariem Abidi
+QPushButton {
+background-color: rgb(5, 51, 141);
+
+border: none;
+
+        font: italic 11pt &quot;Bell MT&quot;;
+text-align: middle;
+
+}
+QPushButton:hover {
+        color: rgb(255, 255, 255);
+
+background:#6156A1;
+border-radius:4px;
+text-align: middle;
+font: italic 11pt &quot;Bell MT&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>RC</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_8">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>659</y>
+      <width>401</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 11pt &quot;Bell MT&quot;;</string>
+    </property>
+    <property name="title">
+     <string>Statistique</string>
+    </property>
+    <widget class="QProgressBar" name="progressBar">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>150</y>
+       <width>311</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="value">
+      <number>24</number>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="la_stat_role">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>60</y>
+       <width>201</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid ;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+        background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+
+font-family:Arial, Helvetica, sans-serif;
+}</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="la_msg">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>120</y>
+       <width>241</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_9">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>120</y>
+      <width>941</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 11pt &quot;Bell MT&quot;;</string>
+    </property>
+    <property name="title">
+     <string>Liste</string>
+    </property>
+    <widget class="QTableView" name="tab_employer">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>40</y>
+       <width>831</width>
+       <height>301</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(183, 214, 239);</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="Button_statistique">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>720</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">Mariem Abidi
+QPushButton {
+background-color: rgb(5, 51, 141);
+
+border: none;
+
+        font: italic 11pt &quot;Bell MT&quot;;
+text-align: middle;
+
+}
+QPushButton:hover {
+        color: rgb(255, 255, 255);
+
+background:#6156A1;
+border-radius:4px;
+text-align: middle;
+font: italic 11pt &quot;Bell MT&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Statistiques</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_PDF">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>830</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">Mariem Abidi
+QPushButton {
+background-color: rgb(5, 51, 141);
+
+border: none;
+
+        font: italic 11pt &quot;Bell MT&quot;;
+text-align: middle;
+
+}
+QPushButton:hover {
+        color: rgb(255, 255, 255);
+
+background:#6156A1;
+border-radius:4px;
+text-align: middle;
+font: italic 11pt &quot;Bell MT&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>PDF</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_emp_mois">
+    <property name="geometry">
+     <rect>
+      <x>1270</x>
+      <y>670</y>
+      <width>131</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">Mariem Abidi
+QPushButton {
+background-color: rgb(5, 51, 141);
+
+border: none;
+
+        font: italic 11pt &quot;Bell MT&quot;;
+text-align: middle;
+
+}
+QPushButton:hover {
+        color: rgb(255, 255, 255);
+
+background:#6156A1;
+border-radius:4px;
+text-align: middle;
+font: italic 11pt &quot;Bell MT&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Employer du mois</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>720</y>
+      <width>541</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 11pt &quot;Bell MT&quot;;</string>
+    </property>
+    <property name="title">
+     <string>Message</string>
+    </property>
+    <widget class="QLabel" name="la_msg_emp_mois">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>40</y>
+       <width>441</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">     font: italic 15pt &quot;Bell MT&quot;;
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Quitter</string>
+    </property>
+   </widget>
+   <zorder>groupBox</zorder>
+   <zorder>groupBox_7</zorder>
+   <zorder>Boutton_tri_nom_5</zorder>
+   <zorder>la_chercher_nom</zorder>
+   <zorder>label_6</zorder>
+   <zorder>Boutton_rechecher</zorder>
+   <zorder>groupBox_8</zorder>
+   <zorder>groupBox_9</zorder>
+   <zorder>Button_statistique</zorder>
+   <zorder>Button_PDF</zorder>
+   <zorder>Button_emp_mois</zorder>
+   <zorder>pushButton</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
