@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>image - Copie/modifier.png</file>
+        <file>image - Copie/pdf.png</file>
+        <file>image - Copie/plus.png</file>
+        <file>image - Copie/stat.png</file>
+        <file>image - Copie/supprimer.png</file>
+        <file>image - Copie/video.png</file>
+        <file>image - Copie/Capture_d_écran_2023-11-29_124412-removebg-preview.png</file>
+    </qresource>
+</RCC>
