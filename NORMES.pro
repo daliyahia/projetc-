@@ -2,7 +2,7 @@ QT       += core gui
 QT+=sql
 QT += core gui printsupport
 QT       += core gui multimedia multimediawidgets printsupport charts widgets axcontainer
-QT += core gui network
+QT += core gui network serialport
 QT += network #weather
 
 
@@ -23,18 +23,28 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 CONFIG += c++11
 SOURCES += \
+    arduino.cpp \
     connection.cpp \
     dialog.cpp \
     dialogvideo.cpp \
+    exportexcelobject.cpp \
     main.cpp \
     mainwindow.cpp \
-    norme.cpp
+    matriels.cpp \
+    norme.cpp \
+    notification.cpp \
+    qrcode.cpp
 
 HEADERS += \
+    arduino.h \
     connection.h \
     dialogvideo.h \
+    exportexcelobject.h \
     mainwindow.h \
-    norme.h
+    matriels.h \
+    norme.h \
+    notification.h \
+    qrcode.h
 
 FORMS += \
     dialogvideo.ui \
