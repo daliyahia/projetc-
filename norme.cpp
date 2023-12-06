@@ -116,7 +116,7 @@ norme:: norme(QString ID_N,QString VERSION ,QString PRINCIPE,QString OBJECTIFS)
           {
               QVector<int> stat;
                   QSqlQuery query;
-                  int nbr1=0,nbr2=0,nbr3=0;
+                  int nbr1=0,nbr2=0;
                   query.exec("SELECT "
                              "SUM(CASE WHEN version = '2015' THEN 1 ELSE 0 END) AS num_1, "
                              "SUM(CASE WHEN version = '2018' THEN 1 ELSE 0 END) AS num_2 "
