@@ -2,7 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "matriels.h"
+#include <archive.h>
+#include <QFileDialog>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -16,19 +18,41 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+
+    // Custom functions
+    void setdata();
+    void remplirListeArchive();
+
+
 private slots:
+    void on_pushButton_2_clicked();
+    void on_bouton_supp_clicked();
+
+    void on_pushButton_3_clicked();
+
+    void on_searchButton_clicked();
+
+    void on_ImportButton_clicked();
+
+    void on_historique_clicked();
+
+    void on_id_clicked();
 
 
-    void on_btn_ajouter_clicked();
+    void on_statistique_clicked();
 
-    void on_btn_supprimer_clicked();
+    void on_PDF_clicked();
 
-    void on_tableView_clicked(const QModelIndex &index);
-
-    void on_btn_modifier_clicked();
+    void on_arduino_clicked();
 
 private:
-    Matriels etmp;
+
     Ui::MainWindow *ui;
+    int selectedId;
+    QString etatformulaire;
+    int endusavec;
 };
 #endif // MAINWINDOW_H
+
+
+
