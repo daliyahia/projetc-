@@ -13,23 +13,6 @@
 #include"dialogvideo.h"
 
 #include <QValueAxis>
-/*
-#include <QTextDocument>
-#include <QTextStream>
-#include <QDate>
-#include <QPrinter>
-#include <QDesktopServices>
-#include <QUrl>
-#include <QDir>
-#include <QStandardPaths>
-#include<QPdfWriter>
-#include <QLayout>
-#include <QVector>
-#include <QStringList>
-#include <QPalette>
-#include <QApplication>
-#include <QBarSet>
-*/
 #include <QtCharts/QBarSet>
 #include <QtCharts/QBarSeries>
 #include <QtCharts/QChart>
@@ -157,7 +140,7 @@ void MainWindow::sendMessage()
 
     if (m_currentQuestion.isValid && !m_currentQuestion.options.isEmpty())
     {
-       // Vérifie la validité de la réponse fournie par l'utilisateur
+       // Vérifie la validité de la réponse fournie par utilisateur
         bool isValidAnswer = false;
         int selectedOption = message.toInt(&isValidAnswer);
 
@@ -545,7 +528,7 @@ void MainWindow::on_pushButton_video_clicked()
      QMediaPlayer *player = new QMediaPlayer();
      QVideoWidget * video = new QVideoWidget();
 
-     video->setGeometry(20, 20, 600, 380);
+     video->setGeometry(280, 380, 600, 380);
 
      player ->setVideoOutput(video);
      player->setMedia(QUrl (FileName));

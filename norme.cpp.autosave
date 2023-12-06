@@ -1,6 +1,6 @@
 #include "norme.h"
 #include<QString>
-//add comment pour integrer dans github
+//add comment pour integrer dans github 
 norme::norme()
 {
     ID_N="";
