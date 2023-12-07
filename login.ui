@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QDialog" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1649</width>
+    <height>906</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>1091</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(78, 151, 209);
+font: italic 11pt &quot;Bell MT&quot;;</string>
+   </property>
+   <property name="title">
+    <string>login</string>
+   </property>
+   <widget class="QPushButton" name="Button_valider">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>450</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: none;
+    font: 8pt &quot;Sitka Display Semibold&quot;;
+    text-align: middle;
+
+border-radius:4px;
+}
+
+QPushButton:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(85, 170, 255);
+    border: none;
+    text-align: middle;
+
+border-radius:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../Downloads/[removal.ai]_919753b4-8fb5-4a5a-a1b9-076f4883fa2f-check-mark-circle-front-side-white-background.png</normaloff>../../../Downloads/[removal.ai]_919753b4-8fb5-4a5a-a1b9-076f4883fa2f-check-mark-circle-front-side-white-background.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>150</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 10pt &quot;Bell MT&quot;;
+font: italic 12pt &quot;Bell MT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Nom de l'utilisateur</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>270</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 12pt &quot;Bell MT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Mot de passe </string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="la_login_nom">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>150</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+
+    background-color: #fff; /* Couleur de fond du champ de texte */
+    border: 1px solid #ccc; /* Bordure du champ de texte */
+    border-radius: 4px; /* Coins arrondis */
+    padding: 5px; /* Espace à l'intérieur du champ de texte */
+  border-radius: 4px;
+
+}
+
+QLineEdit:hover {
+    border-color: #666; /* Changement de couleur de la bordure au survol */
+  border-radius: 4px;
+
+}
+
+QLineEdit:focus {
+    border-color: #2ecc71; /* Couleur de la bordure lorsqu'il est focus */
+    background-color: #f0fff0; /* Couleur de fond lorsqu'il est focus */
+  border-radius: 4px;
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>nom</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="la_login_mdp">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>260</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+
+    background-color: #fff; /* Couleur de fond du champ de texte */
+    border: 1px solid #ccc; /* Bordure du champ de texte */
+    border-radius: 4px; /* Coins arrondis */
+    padding: 5px; /* Espace à l'intérieur du champ de texte */
+  border-radius: 4px;
+
+}
+
+QLineEdit:hover {
+    border-color: #666; /* Changement de couleur de la bordure au survol */
+  border-radius: 4px;
+
+}
+
+QLineEdit:focus {
+    border-color: #2ecc71; /* Couleur de la bordure lorsqu'il est focus */
+    background-color: #f0fff0; /* Couleur de fond lorsqu'il est focus */
+  border-radius: 4px;
+
+}</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>mot de passe </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>91</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Downloads/employer1 inversion (4)/Desktop/image-removebg-preview.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>390</y>
+      <width>56</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>RFID</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Scan">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>450</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    border: none;
+    font: 8pt &quot;Sitka Display Semibold&quot;;
+    text-align: middle;
+
+border-radius:4px;
+}
+
+QPushButton:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(85, 170, 255);
+    border: none;
+    text-align: middle;
+
+border-radius:4px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../Downloads/[removal.ai]_e61c3af9-3327-47c1-b2b7-1e6633d92138-406266699_319791690841619_3788241298856809570_n.png</normaloff>../../../Downloads/[removal.ai]_e61c3af9-3327-47c1-b2b7-1e6633d92138-406266699_319791690841619_3788241298856809570_n.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="RFID">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>370</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+
+    background-color: #fff; /* Couleur de fond du champ de texte */
+    border: 1px solid #ccc; /* Bordure du champ de texte */
+    border-radius: 4px; /* Coins arrondis */
+    padding: 5px; /* Espace à l'intérieur du champ de texte */
+  border-radius: 4px;
+
+}
+
+QLineEdit:hover {
+    border-color: #666; /* Changement de couleur de la bordure au survol */
+  border-radius: 4px;
+
+}
+
+QLineEdit:focus {
+    border-color: #2ecc71; /* Couleur de la bordure lorsqu'il est focus */
+    background-color: #f0fff0; /* Couleur de fond lorsqu'il est focus */
+  border-radius: 4px;
+}
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>RFID</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>30</y>
+      <width>821</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../Downloads/[removal.ai]_5e329e6c-7a60-490f-90a1-6facc0fe41bf-406478620_1229228791800314_1770285624703763629_n.png</pixmap>
+    </property>
+   </widget>
+   <zorder>label_5</zorder>
+   <zorder>Button_valider</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>la_login_nom</zorder>
+   <zorder>la_login_mdp</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>Scan</zorder>
+   <zorder>RFID</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
