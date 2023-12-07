@@ -1,30 +1,45 @@
 #include "mainwindow.h"
-#include <QMessageBox>
+
 #include <QApplication>
 #include "connection.h"
 #include <QDebug>
-
+#include <QMessageBox>
+#include "QTranslator"
+#include "login.h"
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    MainWindow w;
     Connection c;
-    bool test = c.createconnect();
+    bool test=c.createconnection();
+  // MainWindow w;
+    login l;
 
-    if (test)
+    if(test)
     {
-        w.show();
-        qDebug() << "Database connected successfully!";
+         l.show();
+         QMessageBox::information(nullptr, QObject::tr("database is open"),
+                    QObject::tr("connection successful.\n"
+                              "Click Cancel to exit."), QMessageBox::Cancel);
 
-    }
-    else
-    {
-        qDebug() << "Database connection failed!"; // Changed the message here
+            }
+                else
+                    QMessageBox::critical(nullptr, QObject::tr("database is not open"),
+                                QObject::tr("connection failed.\n"
+                                            "Click Cancel to exit."), QMessageBox::Cancel);
+    QTranslator T;
+    QStringList languages;
+          languages <<"French"<<"English";
+          const QString lang=QInputDialog::getItem(NULL,"Select language ","Language",languages);
+          if (lang=="English")
 
-        QMessageBox::critical(nullptr, QObject::tr("Database is not open"),
-                    QObject::tr("Connection failed.\n"
-                                "Click Cancel to exit."), QMessageBox::Cancel);
-    }
+        {
+             T.load(":/new/traduction/anglais.qm");
+        }
+        if (lang !="French")
+        {
+            a.installTranslator(&T);
+        }
+     l.show();
 
     return a.exec();
 }
