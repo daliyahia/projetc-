@@ -268,10 +268,16 @@ QSqlQueryModel* Archive::MultiSearch(const QString &recherche)
 }
 
 
+
+
+
+
+
 QSqlQueryModel* Archive::tri_ID()
 {
 
                 QSqlQueryModel * model= new QSqlQueryModel();
+
 
                    model->setQuery("select * from  ARCHIVE  ORDER BY ID ASC ");
                    model->setHeaderData(0, Qt::Horizontal, QObject::tr("ID "));
@@ -281,7 +287,11 @@ QSqlQueryModel* Archive::tri_ID()
 
                    return model;
 
+
 }
+
+
+
 
 void Archive::afficherHistorique() {
     // Charger le contenu du fichier d'historique
@@ -308,3 +318,5 @@ void Archive::afficherHistorique() {
         QMessageBox::warning(nullptr, "Erreur", "Impossible d'ouvrir le fichier d'historique pour la lecture.");
     }
 }
+
+

@@ -16,6 +16,7 @@ public:
     void setREFERENCE(QString);
      void setNOM(QString);
       void setETAT(QString);
+
        void setQUANTITE(int);
        //fonctionnalites
 public slots :
@@ -23,6 +24,11 @@ public slots :
        QSqlQueryModel *afficher();
        bool supprimer(QString );
        bool modifier( QString );
+       //Métiers
+       QSqlQueryModel * recherchermatriels(QString recherche);
+       QSqlQueryModel * trimatriels(QString tri);
+       QVector<int> statmatriels();
+
 
 
 private:
